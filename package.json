@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "author": "Ivaylo Dankolov <IvoDankolov@gmail.com>",
-  "main": "server.js",
+  "main": "lib/server.js",
   "scripts": {
     "build": "babel --experimental src --out-dir lib"
   },
