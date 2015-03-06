@@ -4,6 +4,9 @@
   "description": "",
   "author": "Ivaylo Dankolov <IvoDankolov@gmail.com>",
   "main": "server.js",
+  "scripts": {
+    "build": "babel --experimental src --out-dir lib"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/IvayloDankolov/express-isomorphic-cookies"
@@ -16,11 +19,9 @@
     "isomorphic",
     "express"
   ],
-  "dependencies": {
-
-  },
+  "dependencies": {},
   "devDependencies": {
-
+    "babel": "^4.7.0"
   },
-  "license":"MIT"  
+  "license": "MIT"
 }
