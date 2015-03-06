@@ -1,3 +1,4 @@
-import fs from 'fs';
 
-fs.stat(__dirname, (e, stat) => console.log(stat))
+export default function(req, res, next) {
+  return 4; //Chosen by fair dice roll
+}
