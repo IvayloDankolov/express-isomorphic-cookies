@@ -11,15 +11,15 @@
   "bugs": {
     "url": "https://github.com/IvayloDankolov/express-isomorphic-cookies/issues"
   },
-  "keywords": {
+  "keywords": [
     "cookies",
     "isomorphic",
-    "express",
-  },
+    "express"
+  ],
   "dependencies": {
 
   },
-  "dev-dependencies": {
+  "devDependencies": {
 
   },
   "license":"MIT"  
